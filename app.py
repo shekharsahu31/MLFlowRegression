@@ -1,6 +1,14 @@
-# The data set used in this example is from http://archive.ics.uci.edu/ml/datasets/Wine+Quality
-# P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
-# Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+'''
+MLFLOW_TRACKING_URI=https://dagshub.com/shekharsahu31/MLFlowRegression.mlflow \
+MLFLOW_TRACKING_USERNAME=shekharsahu31 \
+MLFLOW_TRACKING_PASSWORD=0cb0eedf039cf572be06483551f8be77d1e00124 \
+python script.py
+
+export MLFLOW_TRACKING_URI= https://dagshub.com/shekharsahu31/MLFlowRegression.mlflow
+export MLFLOW_TRACKING_USERNAME=shekharsahu31
+export MLFLOW_TRACKING_PASSWORD=0cb0eedf039cf572be06483551f8be77d1e00124
+'''
+
 
 import logging
 import sys
@@ -83,7 +91,7 @@ if __name__ == "__main__":
 
         ## For Remote server only(DAGShub)
 
-        remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
+        remote_server_uri="https://dagshub.com/shekharsahu31/MLFlowRegression.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)  '''
 
 
